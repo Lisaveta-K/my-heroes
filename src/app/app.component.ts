@@ -8,4 +8,16 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   title = 'Here we go, some superheroes for humanity ;)';
+
+  hero: Hero = {
+	  id: 1,
+	  name: 'Windstorm',
+	  age: 35
+	};
+}
+
+export class Hero {
+  id: number;
+  name: string;
+  age: number;
 }
