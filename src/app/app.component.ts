@@ -11,7 +11,7 @@ export class AppComponent {
 
   hero: Hero = {
 	  id: 1,
-	  name: 'Windstorm',
+	  name: 'Batman',
 	  age: 35
 	};
 }
